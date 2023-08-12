@@ -1,4 +1,10 @@
 
+########################################################################
+#### Proyecto: Determinación del efecto de la entrega de programas sociales
+#### Documento: Diseño de gráfica
+#### Elaboración: Econ. Guallasamin Miño Jonathan
+########################################################################
+
 # Cargar la biblioteca ggplot2 para crear gráficos más elegantes
 library(ggplot2)
 
