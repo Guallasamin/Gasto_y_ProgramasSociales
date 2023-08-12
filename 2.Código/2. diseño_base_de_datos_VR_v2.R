@@ -1,5 +1,11 @@
 
-# Este codigo crea las variables que se usaran en el modelo, con excepcion de ingreso sin transferencias gub que fue creado en el codigo anterior. 
+########################################################################
+#### Proyecto: Determinación del efecto de la entrega de programas sociales
+#### Documento: Construcción de la base de datos
+#### Elaboración: Econ. Guallasamin Miño Jonathan
+########################################################################
+
+# Este codigo crea las variables que se usaran en el modelo, con excepcion de ingreso sin transferencias gubernamentales que fue creado en el codigo anterior. 
 
 rm(list=ls())
 options(digits = 10)
