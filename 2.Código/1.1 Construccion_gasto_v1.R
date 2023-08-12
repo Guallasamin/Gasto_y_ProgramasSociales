@@ -1,4 +1,10 @@
 
+########################################################################
+#### Proyecto: Determinación del efecto de la entrega de programas sociales
+#### Documento: Construcción del gasto corriente del Hogar
+#### Elaboración: Econ. Guallasamin Miño Jonathan
+########################################################################
+
 # Se instalan los paquetes y librerias
 
 library(pacman) ; p_load("dplyr", "data.table", "tidyverse", "gdata", "srvyr", "bit64", "foreign")
@@ -6,7 +12,6 @@ library(pacman) ; p_load("dplyr", "data.table", "tidyverse", "gdata", "srvyr", "
 # Se establece la carpeta de trabajo
 
 setwd("/Users/jonathanguallasamin/Dropbox/Tareas_Jonathan/2023.07.07 Match_ProgramasSocialesGasto/bases/ENIGH2020") 
-#setwd("C:/Users/virid/Dropbox/Tareas_Jonathan/2023.07.07 Match_ProgramasSocialesGasto/bases/ENIGH2020/temp")
 
 ghog <- fread("gastoshogar.csv") %>% 
   rename_all(tolower)   %>% 
