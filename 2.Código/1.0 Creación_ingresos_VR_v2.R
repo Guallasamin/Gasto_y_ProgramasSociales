@@ -1,3 +1,10 @@
+
+########################################################################
+#### Proyecto: Determinación del efecto de la entrega de programas sociales
+#### Documento: Creación del Ingreso Corriente
+#### Elaboración: Econ. Guallasamin Miño Jonathan
+########################################################################
+
 # Limpiar los datos de la consola
 
 rm(list=ls())
@@ -10,7 +17,6 @@ library(pacman) ; p_load("dplyr", "data.table", "tidyverse", "gdata", "srvyr", "
 # Se establece la carpeta de trabajo
 
 setwd("/Users/jonathanguallasamin/Dropbox/Tareas_Jonathan/2023.07.07 Match_ProgramasSocialesGasto/bases/ENIGH2020") 
-#setwd("C:/Users/virid/Dropbox/Tareas_Jonathan/2023.07.07 Match_ProgramasSocialesGasto/bases/ENIGH2020/temp")
 
 #Se procede a la construcci?n del ingreso corriente del hogar.
 
@@ -502,7 +508,6 @@ ict <- ict %>%
     na.rm = TRUE
   )
 
-#save(ict, file= "/Users/virid/Dropbox/Tareas_Jonathan/2023.07.07 Match_ProgramasSocialesGasto/bases/ingresos_final.RData")
 save(ict, file= "/Users/jonathanguallasamin/Dropbox/Tareas_Jonathan/2023.07.07 Match_ProgramasSocialesGasto/bases/ingresos_final.RData") 
 
 ################################################################################
