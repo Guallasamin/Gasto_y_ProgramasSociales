@@ -1,4 +1,10 @@
 
+########################################################################
+#### Proyecto: Determinación del efecto de la entrega de programas sociales
+#### Documento: Aplicación de Modelo MATCH
+#### Elaboración: Econ. Guallasamin Miño Jonathan
+########################################################################
+
 # Se establece la carpeta de trabajo
 
 setwd("/Users/jonathanguallasamin/Dropbox/Tareas_Jonathan/2023.07.07 Match_ProgramasSocialesGasto/bases/") 
