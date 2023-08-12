@@ -1,3 +1,10 @@
+
+########################################################################
+#### Proyecto: Determinación del efecto de la entrega de programas sociales
+#### Documento: Obtención de Efectos Marginales
+#### Elaboración: Econ. Guallasamin Miño Jonathan
+########################################################################
+
 library("ggplot2")
 library("marginaleffects")
 library("ggeffects")
